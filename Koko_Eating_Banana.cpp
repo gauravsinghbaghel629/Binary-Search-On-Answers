@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 int findMax(vector<int> &v) {
     int maxi = INT_MIN;
     int n = v.size();
