@@ -44,6 +44,10 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>nums[i];
     }
-
     
+    int ans = smallestDivisor(nums,thres);
+
+    cout<<"The Smallest Divisor with the Given Threshold is : "<<ans<<endl;
+
+    return 0;
 }
