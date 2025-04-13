@@ -37,9 +37,7 @@ int minimumRateToEatBananas(vector<int> v, int h) {
     }
     return low;
 }
-
-int main()
-{
+int main(){
     vector<int> v = {7, 15, 6, 3};
     int h = 8;
     int ans = minimumRateToEatBananas(v, h);
